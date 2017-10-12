@@ -14,6 +14,7 @@
 		0A17058E1F8F7B19000360EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A17058C1F8F7B19000360EE /* LaunchScreen.storyboard */; };
 		0A1705991F8F7B19000360EE /* AwesomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1705981F8F7B19000360EE /* AwesomeAppTests.swift */; };
 		0A1705A41F8F7B19000360EE /* AwesomeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1705A31F8F7B19000360EE /* AwesomeAppUITests.swift */; };
+		0A1705B21F8F7CCB000360EE /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1705B11F8F7CCB000360EE /* UserAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A17059F1F8F7B19000360EE /* AwesomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1705A31F8F7B19000360EE /* AwesomeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeAppUITests.swift; sourceTree = "<group>"; };
 		0A1705A51F8F7B19000360EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1705B11F8F7CCB000360EE /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0A1705821F8F7B19000360EE /* AwesomeApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A1705B31F8F810B000360EE /* API */,
 				0A1705831F8F7B19000360EE /* AppDelegate.swift */,
 				0A1705851F8F7B19000360EE /* ViewController.swift */,
 				0A1705871F8F7B19000360EE /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				0A1705A51F8F7B19000360EE /* Info.plist */,
 			);
 			path = AwesomeAppUITests;
+			sourceTree = "<group>";
+		};
+		0A1705B31F8F810B000360EE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0A1705B11F8F7CCB000360EE /* UserAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				0A1705861F8F7B19000360EE /* ViewController.swift in Sources */,
 				0A1705841F8F7B19000360EE /* AppDelegate.swift in Sources */,
+				0A1705B21F8F7CCB000360EE /* UserAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
